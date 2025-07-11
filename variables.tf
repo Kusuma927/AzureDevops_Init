@@ -1,4 +1,4 @@
-variable "azure_devops_org_url" {
+/*variable "azure_devops_org_url" {
   description = "The Azure DevOps organization URL"
   type        = string
 }
@@ -7,7 +7,7 @@ variable "azure_devops_pat" {
   description = "Azure DevOps Personal Access Token"
   type        = string
   sensitive   = true
-}
+}*/
 
 variable "project_name" {
   description = "Name of the Azure DevOps project"
