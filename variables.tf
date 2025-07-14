@@ -25,3 +25,24 @@ variable "project_visibility" {
   type        = string
   default     = "private"
 }
+variable "azdo_org_service_url" {
+  description = "Azure DevOps organization URL"
+  type        = string
+  sensitive   = true
+}
+
+variable "azdo_pat" {
+  description = "Azure DevOps Personal Access Token"
+  type        = string
+  sensitive   = true
+}
+
+variable "project_name" {
+  description = "Azure DevOps project name"
+  type        = string
+}
+
+variable "repo_name" {
+  description = "Name of the new repository"
+  type        = string
+}

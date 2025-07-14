@@ -7,7 +7,9 @@ terraform {
   }
 }
 
-provider "azuredevops" { }
+provider "azuredevops" {
+  # Empty block; Terraform picks up env vars
+ }
 
 /*provider "azuredevops" {
   org_service_url       = var.azure_devops_org_url
